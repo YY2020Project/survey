@@ -15,18 +15,18 @@
 1. cuda(11.0)のインストール
 env/cuda_toolkitから以下のスクリプトをuser権限で実行してください．
 ```
-bash install_cuda.sh
+sudo bash install_cuda.sh
 ```
 
 2. Dockerのインストール
 env/dockerで以下のスクリプトをuser権限で実行してください
 ```
-bash install.sh
+sudo bash install.sh
 ```
 3. NVIDIA-Dockerのインストール
 env/NVIDIA_Dockerで以下のスクリプトをuser権限で実行してください
 ```
-bash install.sh
+sudo bash install.sh
 ```
 
 NVIDIA-Dockerまでインストール出来たら，一度Dockerを再起動してください．
